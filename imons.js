@@ -8,7 +8,7 @@ let level=0;
 let h2=document.querySelector("h2");
 // let btn=document.querySelector(".btn");
 
-document.addEventListener("keypress",function(){//if we press a key anywhere on the white screen the game will get started
+document.addEventListener("click",function(){//if we press a key anywhere on the white screen the game will get started
     if(started==false){//after clicking any key the game gets started and started vlue changes to true 
         console.log("Game Started");
         started=true;
